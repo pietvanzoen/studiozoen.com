@@ -3,7 +3,8 @@ name: Build and Deploy Web
 on:
   push:
     paths:
-      - /web/**/*
+      - .github/workflows/web.yaml
+      - web
     branches:
       - main
 
